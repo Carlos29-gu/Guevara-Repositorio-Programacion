@@ -9,6 +9,7 @@ package com.mycompany.repositorioprogramacion;
  * @author GUEVARA VERA
  */
 public class BusquedaArreglo {
+    //Programa 1: Búsqueda en Arreglo Multidimensional
   public static void main(String[] args) {
         int[][] matriz = {
             {5, 12, 7},
@@ -28,10 +29,10 @@ public class BusquedaArreglo {
     }
 
     public static int[] buscarValor(int[][] matriz, int valor) {
-        for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz[i].length; j++) {
-                if (matriz[i][j] == valor) {
-                    return new int[] {i, j};
+        for (int x = 0; x < matriz.length; x++) {
+            for (int y = 0; y < matriz[x].length; y++) {
+                if (matriz[x][y] == valor) {
+                    return new int[] {x, y};
                 }
             }
         }

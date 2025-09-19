@@ -10,6 +10,7 @@ import java.util.Arrays;
  */
 public class RepositorioProgramacion {
 
+//Programa 2: Ordenación de Arreglo Multidimensional
 public static void main(String[] args) {
         int[][] matriz = {
             {5, 12, 7},
